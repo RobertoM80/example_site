@@ -1,0 +1,81 @@
+body {
+  margin: auto;
+  /*padding: 7px;*/
+  background-color: lightgrey;
+  	/*.articles {
+  		border: 1px solid black;
+  		padding: 10px;
+  		border-radius: 5px;
+  		margin: 10px;
+  		background-color: white;
+  	}
+  
+  	.article1 {
+  		margin-right: 5%;
+  	}*/ }
+  body .container-fluid {
+    background-color: white;
+    padding: 0px; }
+  body .width {
+    max-width: 1170px;
+    margin: auto; }
+  body .carousel {
+    height: 300px; }
+  body .jumbotron {
+    background-color: #053678; }
+    body .jumbotron .side-carousel {
+      background-color: white;
+      height: 300px;
+      padding-top: 4px;
+      border: 1px solid black; }
+    body .jumbotron h1 {
+      font-size: 1.2em; }
+    body .jumbotron p {
+      font-size: 0.9em; }
+  body .border {
+    border: 1px solid black;
+    padding: 20px; }
+  body .second-block .image {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    margin-bottom: 10px; }
+  body .second-block h1 {
+    font-size: 0.8em; }
+  body .second-block p {
+    font-size: 0.5em; }
+  body .jambotron {
+    width: 100%;
+    border-top: 1px solid grey; }
+    body .jambotron form {
+      margin-bottom: 50px;
+      margin-top: 10px;
+      clear: both; }
+      @media only screen and (min-width: 400px) {
+        body .jambotron form {
+          margin-left: 0%; } }
+      @media only screen and (min-width: 700px) {
+        body .jambotron form {
+          margin-left: 20%; } }
+    body .jambotron .text-in {
+      margin-right: 20px; }
+    body .jambotron .section-no-column {
+      background-color: #1D6CA5;
+      padding: 20px;
+      margin-top: 50px; }
+      body .jambotron .section-no-column p {
+        color: white;
+        clear: both; }
+    body .jambotron > .divider {
+      width: 100%;
+      height: 10px;
+      background-color: #1FBBD7; }
+    body .jambotron .footer {
+      background-color: black;
+      color: white;
+      padding: 40px; }
+      body .jambotron .footer a {
+        color: white; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,139 @@
+$jumbotron-color: #053678;
+$jumbotron-footer: #1D6CA5;
+$divider: #1FBBD7;
+
+body {
+	margin: auto;
+	/*padding: 7px;*/
+	background-color: lightgrey;
+	.container-fluid {
+		background-color: white;
+		padding: 0px;
+	}
+
+		.width {
+			max-width: 1170px;
+			margin: auto;
+		}
+		.carousel {
+			height: 300px;
+		}
+
+		.jumbotron {
+			background-color: $jumbotron-color;
+			.side-carousel {
+				background-color: white;
+				height: 300px;
+				padding-top: 4px;
+				border: 1px solid black;
+			}
+			h1 {
+				font-size: 1.2em;
+			}
+			p {
+				font-size: 0.9em;
+			}
+		
+		}
+
+	.border {
+		border: 1px solid black;
+		padding: 20px;
+	}
+
+	/*.articles {
+		border: 1px solid black;
+		padding: 10px;
+		border-radius: 5px;
+		margin: 10px;
+		background-color: white;
+	}
+
+	.article1 {
+		margin-right: 5%;
+	}*/
+
+	.second-block {
+		& .image {
+			display: block;
+			width: 100%;
+			height: 100px;
+			background-color: grey;
+			margin-bottom: 10px;
+		}
+		h1 {
+			font-size: 0.8em;
+		}
+		p {
+			font-size: 0.5em;
+		}
+	}
+
+	.jambotron {
+		width: 100%; 
+		border-top: 1px solid grey;
+		form {
+			margin-bottom: 50px;
+			margin-top: 10px;
+			clear: both;
+			   @media only screen and (min-width : 400px) {
+				margin-left: 0%;     
+               }
+               @media only screen and (min-width : 700px) {
+				margin-left: 20%;    
+               }
+         
+
+		}
+		.text-in {
+			margin-right: 20px;
+		}
+		.section-no-column {
+			background-color: $jumbotron-footer;
+			padding: 20px;
+			margin-top: 50px;
+			p {
+				color: white;
+				clear: both;
+			}
+		}
+		& >.divider {
+			width: 100%;
+			height: 10px;
+			background-color: $divider;
+		}
+
+		.footer {
+			background-color: black;
+			color: white;
+			padding: 40px;
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
